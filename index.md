@@ -8,11 +8,14 @@ permalink: /
 
 # What is a Knutt?
 
-Knutt is the German name for a bird called the [red knot](https://en.wikipedia.org/wiki/Red_knot). 
+**Knutt** is the German name for a bird called the [red knot](https://en.wikipedia.org/wiki/Red_knot). 
 
-Knutt is also family of workflow pipelines providing assembly, annotation, binning and phylogenetic analysis for metagenome studies based on short-read whole genome shotgun sequencing. 
+**Knutt** is also family of workflow pipelines providing **assembly**, **annotation**, **binning** and **phylogenetic analysis** for **metagenome studies** based on short-read whole genome shotgun sequencing. 
+
+[Get Knutt today](#getting-started){: .btn .btn-green .fs-6}
+
+* * *
 
 Every Knutt pipeline is designed to provide you with an easy to use Snakemake workflow with integrated data reporting. 
 
-* * *
 
