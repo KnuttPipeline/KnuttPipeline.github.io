@@ -1,0 +1,13 @@
+title: "The Knutt Pipeline"
+remote_theme: pmarsceill/just-the-docs
+#Prefer light for now
+#color_scheme: "dark"
+search_enabled: false
+# No logo (yet)
+# logo: "/assets/images/just-the-docs.png"
+heading_anchors: true
+aux_links:
+  "Check out the repos on Github":
+    - "//github.com/KnuttPipeline"
+
+# footer_content: "HTML code footer here"
