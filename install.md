@@ -9,7 +9,7 @@ permalink: /install
 Coming soon
 {: .label .label-yellow }
 
-The pipelines only require working installations of conda and Snakemake.
+The pipelines only requires a working installation of conda and Snakemake.
 
 ## miniConda
 

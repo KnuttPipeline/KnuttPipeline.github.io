@@ -6,6 +6,13 @@ description: "Knutt is a customizable WGS metagenome workflow pipeline for micro
 permalink: /
 ---
 
-# Knutt
+# What is a Knutt?
 
-The Knutt family of workflow pipelines provide Snakemake implementations of the common assembly, annotation, binning process for metagenome studies based on short-read whole genome shotgun sequencing. They provide you with information in datasets on each step, to make your research easier.  
+Knutt is the German name for a bird called the [red knot](https://en.wikipedia.org/wiki/Red_knot). 
+
+Knutt is also family of workflow pipelines providing assembly, annotation, binning and phylogenetic analysis for metagenome studies based on short-read whole genome shotgun sequencing. 
+
+Every Knutt pipeline is designed to provide you with an easy to use Snakemake workflow with integrated data reporting. 
+
+* * *
+
