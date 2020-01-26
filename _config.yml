@@ -6,6 +6,7 @@ search_enabled: false
 # No logo (yet)
 # logo: "/assets/images/just-the-docs.png"
 heading_anchors: true
+url: "www.knutt.org"
 aux_links:
   "Check out the repos on Github":
     - "//github.com/KnuttPipeline"
