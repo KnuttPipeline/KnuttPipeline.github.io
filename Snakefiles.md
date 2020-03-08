@@ -48,7 +48,11 @@ snakemake -prj 16 --use-conda paper 2>&1 | tee run.log
 
 ## KnuttBinPhylo
 
-Automatic phylognetic marker analysis
+Automatic phylognetic marker analysis.
 
-Coming soon
-{: .label .label-yellow }
+``` sh
+git clone -b paper https://github.com/KnuttPipeline/KnuttBinPhylo.git
+cd KnuttBinPhylo
+
+snakemake -prj 16 --use-conda paper 2>&1 | tee run.log
+```
