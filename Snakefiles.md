@@ -39,8 +39,12 @@ snakemake -prj 16 --use-conda paper 2>&1 | tee run.log
 
 Bin annotation.
 
-Coming soon
-{: .label .label-yellow }
+``` sh
+git clone -b paper https://github.com/KnuttPipeline/KnuttBinAnno.git
+cd KnuttBinAnno
+
+snakemake -prj 16 --use-conda paper 2>&1 | tee run.log
+```
 
 ## KnuttBinPhylo
 

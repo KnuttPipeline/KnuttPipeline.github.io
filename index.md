@@ -18,4 +18,4 @@ permalink: /
 
 Every **Knutt** pipeline is designed to provide you with an easy to use [Snakemake](https://snakemake.readthedocs.io) workflow with integrated data reporting.
 
-This site is currently in development, for the versions used in the Dyksma et. al. paper see [here](/Snakefiles)
+**This site is currently in development, for the versions used in the Dyksma et. al. paper see [here](/Snakefiles)**
