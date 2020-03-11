@@ -9,5 +9,7 @@ heading_anchors: true
 aux_links:
   "Check out the repos on Github":
     - "//github.com/KnuttPipeline"
+  "Started at the UAS Emden/Leer":
+    - "//www.hs-emden-leer.de/fachbereiche/technik/forschung-institute/umweltmikrobiologie/"
 
 # footer_content: "HTML code footer here"

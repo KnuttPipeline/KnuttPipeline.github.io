@@ -18,7 +18,7 @@ snakemake --version # => 4.8.2
 
 ---
 
-## Table of contents
+#### Table of contents
 {: .no_toc }
 
 1. TOC
@@ -95,4 +95,16 @@ And then run the installation.
 
 ## Knutt
 
-and here
+Clone the git repository for the pipeline you want to use:
+
+``` sh
+git clone https://github.com/KnuttPipeline/KnuttReads2Bins.git
+git clone https://github.com/KnuttPipeline/KnuttBinAnno.git
+git clone https://github.com/KnuttPipeline/KnuttBinPhylo.git
+```
+
+Then switch into the directory of this pipeline and run the `data` rule to construct the reference database. This may require alot (~160GB) of memory. Some settings affect the reference database. For example: Used Kaiju database, SILVA version or the phylogenetic marker candidates.
+
+``` sh
+snakemake -prj 16 --use-conda --keep-going data 2>&1 | tee data.log
+```

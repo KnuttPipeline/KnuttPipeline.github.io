@@ -31,7 +31,7 @@ download_sra(){
 download_sra SRR11128853 ENR-Ac244days_meta
 download_sra SRR11128854 ENR-Ac211days_meta
 download_sra SRR11128855 PFL9_meta
-snakemake -prj 16 --use-conda paper 2>&1 | tee run.log
+snakemake -prj 16 --use-conda --keep-going paper 2>&1 | tee run.log
 # Run with 16 cores available
 ```
 
@@ -43,7 +43,7 @@ Bin annotation.
 git clone -b paper https://github.com/KnuttPipeline/KnuttBinAnno.git
 cd KnuttBinAnno
 
-snakemake -prj 16 --use-conda paper 2>&1 | tee run.log
+snakemake -prj 16 --use-conda --keep-going paper 2>&1 | tee run.log
 ```
 
 ## KnuttBinPhylo
@@ -54,5 +54,5 @@ Automatic phylognetic marker analysis.
 git clone -b paper https://github.com/KnuttPipeline/KnuttBinPhylo.git
 cd KnuttBinPhylo
 
-snakemake -prj 16 --use-conda paper 2>&1 | tee run.log
+snakemake -prj 16 --use-conda --keep-going paper 2>&1 | tee run.log
 ```
