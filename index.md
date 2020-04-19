@@ -10,12 +10,12 @@ permalink: /
 
 **Knutt** is the German name for a bird called the [red knot](https://en.wikipedia.org/wiki/Red_knot). 
 
-**Knutt** is also family of workflow pipelines providing **assembly**, **annotation**, **binning** and **phylogenetic analysis** for **metagenome studies** based on short-read whole genome shotgun sequencing. 
+**Knutt** is also family of workflow pipelines providing **assembly**, **annotation**, **binning** and **phylogenetic analysis** for prokaryotic **metagenome studies** based on short-read whole genome shotgun sequencing.
 
 [Get Knutt today](/install){: .btn .btn-green .fs-6}
 
 * * *
 
-Every **Knutt** pipeline is designed to provide you with an easy to use [Snakemake](https://snakemake.readthedocs.io) workflow with integrated data reporting.
+Every **Knutt** pipeline is designed to provide you with an easy to use [Snakemake](https://snakemake.readthedocs.io) workflow with integrated data reporting. **For the versions used in the Dyksma et. al. paper see [here](/Snakefiles)**
 
-**This site is currently in development, for the versions used in the Dyksma et. al. paper see [here](/Snakefiles)**
+**Remeber to cite** the databases and tools you use for your analysis.

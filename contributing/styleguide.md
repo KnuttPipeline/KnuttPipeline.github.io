@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Styleguide
-nav_order: 3
+nav_order: 5
 permalink: /contrib/style
+published: False
 ---
 # Styleguide
 

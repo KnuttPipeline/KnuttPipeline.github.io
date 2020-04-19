@@ -11,5 +11,5 @@ aux_links:
     - "//github.com/KnuttPipeline"
   "Started at the UAS Emden/Leer":
     - "//www.hs-emden-leer.de/fachbereiche/technik/forschung-institute/umweltmikrobiologie/"
-
+#logo: "/assets/images/logo.png"
 # footer_content: "HTML code footer here"
