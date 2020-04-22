@@ -246,7 +246,7 @@ For the `SAMPLE_merge_{untr/tr}_overview.tsv` file the BBmerge log output is par
 
 ### Read quality trimming
 
-For some steps like **read classification** and **direct database searches** it makes sense to mask low complexity and low quality regions of the reads, as not all tools are quality aware. The **merged and unmerged R1 reads are combined** for these steps, because read pairings is another information some tools can't process and R1+R2 hits on the same subject may not be correctlly accounted for. K-mer based error trimming using `trim-low-abund.py` from khmer is performed **after** masking and quality scored based trimming.
+For some steps like **read classification** and **direct database searches** it makes sense to mask low complexity and low quality regions of the reads, as not all tools are quality aware. The **merged and unmerged R1 reads are combined** for these steps, because read pairings is another information some tools can't process and R1+R2 hits on the same subject may not be correctlly accounted for. K-mer based error trimming using `trim-low-abund.py` from khmer is performed **before** masking and quality scored based trimming.
 
 If samples with different depths are compared using read analysis methods, **sampling (rarefaction)** of the reads can compensate for this difference. This sampling is configurable in the config file.
 
@@ -305,6 +305,22 @@ See the general file information for the [`Benchmarking`](/shared_files#benchmar
 The `SAMPLE_qtr_tr.tsv` file is also the [minimal report](https://cutadapt.readthedocs.io/en/stable/guide.html#reporting), but the reads are processed as unpaired reads, therefore there are no R2 values. BBmask converts the low complexity regions to unspecified base calls before cutadapt is called. Also included is data from the masking and k-mer trimmming process.
 
 <dl>
+  <dt><em>read</em></dt>
+  <dd>Read file</dd>
+  <dt><em>fpr</em></dt>
+  <dd>False positive rate estimation for k-mer trimming</dd>
+  <dt><em>reads_skipped</em></dt>
+  <dd>Low abundance reads skipped for k-mer trimming</dd>
+  <dt><em>basepairs_skipped</em></dt>
+  <dd>Low abundance base pairs skipped for k-mer trimming</dd>
+  <dt><em>reads_removed</em></dt>
+  <dd>Entire reads removed due to k-mer trimming</dd>
+  <dt><em>reads_trimmed</em></dt>
+  <dd>Number of reads k-mer trimmed</dd>
+  <dt><em>basepairs_removed_or_trimmed</em></dt>
+  <dd>Base pairs remvoved by k-mer trimming</dd>
+  <dt><em>total_masked</em></dt>
+  <dd>Base pairs masked by BBmask</dd>
   <dt><em>status</em></dt>
   <dd>Incomplete Adapter warning, almost always <em>OK</em></dd>
   <dt><em>in_reads</em></dt>
@@ -325,18 +341,6 @@ The `SAMPLE_qtr_tr.tsv` file is also the [minimal report](https://cutadapt.readt
   <dd>Base pairs quality trimmed</dd>
   <dt><em>out_bp</em></dt>
   <dd>Base pairs written</dd>
-  <dt><em>total_masked</em></dt>
-  <dd>Base pairs masked by BBmask</dd>
-  <dt><em>fpr</em></dt>
-  <dd>False positive rate estimation for k-mer trimming</dd>
-  <dt><em>reads_skipped</em></dt>
-  <dd>Low abundance reads skipped for k-mer trimming</dd>
-  <dt><em>basepairs_skipped</em></dt>
-  <dd>Low abundance base pairs skipped for k-mer trimming</dd>
-  <dt><em>reads_removed</em></dt>
-  <dd>Entire reads removed due to k-mer trimming</dd>
-  <dt><em>reads_trimmed</em></dt>
-  <dd>Number of reads k-mer trimmed</dd>
-  <dt><em>basepairs_removed_or_trimmed</em></dt>
-  <dd>Base pairs remvoved by k-mer trimming</dd>
 </dl>
+
+The input basepair and read count values come from cutadapt and therefore are based on the output of the k-mer trimming operation.

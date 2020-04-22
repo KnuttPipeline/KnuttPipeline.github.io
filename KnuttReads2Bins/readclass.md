@@ -42,7 +42,7 @@ Outputs are stored in `<outputdir>/ReadClassification/`, `<outputdir>/Data/ReadC
 
 The SSU workflow uses the configured version of the *SILVA SSSU NR 99* database to build a **BBMap and SINA** index for analysis. This can be executed with the `SSURefData` rule. The files use around 5.5GB disk space.
 
-The filtering and classification of the reads can be run with the `SSU` rule. A report can be generated with the `SSUReport`rule. The Krona report (`SSUKrona`) also contains information on the database, this makes the report quite large and a little bit slugish during use.
+The filtering and classification of the reads can be run with the `SSU` rule. A report can be generated with the `SSUReport`rule.
 
 #### Output files
 {: .no_toc }
