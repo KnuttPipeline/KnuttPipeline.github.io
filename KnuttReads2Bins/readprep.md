@@ -217,7 +217,7 @@ The `SAMPLE_merge_{untr/tr}_insert_sizes.tsv` files are directly produced by BBm
   <dd>The number of mismatches during merging. 0 for perfect merges and missing for failed merges</dd>
 </dl>
 
-For the `SAMPLE_merge_{untr/tr}_overview.tsv` file the BBmerge log output is parsed. The adapter output can be used to make sure that adapter trimming was successful. This is done by making sure the `adaptercount` field has a **low value** (compared to the joined/merged count) and the adapter sequence is long, consisting mostly of N's.
+For the `SAMPLE_merge_{untr/tr}_overview.tsv` file the BBmerge log output is parsed. The adapter output can be used to make sure that adapter trimming was successful. This is done by making sure the `adaptercount` field has a **low value** (compared to the joined/merged count).
 
 <dl>
   <dt><em>pairstomerge</em></dt>

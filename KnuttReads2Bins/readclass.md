@@ -108,10 +108,12 @@ It contains the following columns. Every row is a read filtered by BBmap.
   <dd>LCA result of the EMBL-EBI/ENA taxa</dd>
   <dt><em>lca_tax_gg</em></dt>
   <dd>LCA result of the Greengenes taxa</dd>
+  <dt><em>lca_tax_gtdb</em></dt>
+  <dd>LCA result of the GTDB taxa (recommended)</dd>
   <dt><em>lca_tax_rdp</em></dt>
   <dd>LCA result of the RDP taxa</dd>
   <dt><em>lca_tax_slv</em></dt>
-  <dd>LCA result of the SILVA taxa (recommended)</dd>
+  <dd>LCA result of the SILVA taxa</dd>
   <dt><em>nearest_slv</em></dt>
   <dd>References found in the homology search. Space seperated:<br/> <em>ID.VERSION.START.END~IDENTITY</em></dd>
   <dt><em>turn</em></dt>
