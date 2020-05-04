@@ -192,7 +192,15 @@ output
 │       ├── output/Data/ReadClassification/SAMPLE_readclassification_sourmash_gather.tsv
 │       ├── output/Data/ReadClassification/SAMPLE_readclassification_sourmash_lca.tsv
 │       ├── output/Data/ReadClassification/SAMPLE_sourmash_signature.tsv
-│       └── output/Data/ReadClassification/sourmash_sample_comparison.tsv
+│       ├── output/Data/ReadClassification/PFL9_meta_sourmash_signature.tsv
+│       ├── output/Data/ReadClassification/sourmash_sample_comparison
+│       ├── output/Data/ReadClassification/sourmash_sample_comparison.bin
+│       ├── output/Data/ReadClassification/sourmash_sample_comparison.bin.labels.txt
+│       ├── output/Data/ReadClassification/sourmash_sample_comparison.dendro.png
+│       ├── output/Data/ReadClassification/sourmash_sample_comparison.hist.png
+│       ├── output/Data/ReadClassification/sourmash_sample_comparison.labels.txt
+│       ├── output/Data/ReadClassification/sourmash_sample_comparison.matrix.png
+│       └── output/Data/ReadClassification/sourmash_sample_comparison.tsv
 ├── output/ReadClassification
 │   └── output/ReadClassification/sourmash
 │       ├── output/ReadClassification/sourmash/SAMPLE
@@ -262,5 +270,7 @@ The file `SAMPLE_readclassification_sourmash_lca.tsv` uses the hashes to provide
   <dt><em>md5</em></dt>
   <dd>MD5 checksum of the genome</dd>
 </dl>
+
+`sourmash_comparison.tsv` contains the comparison of the samples based on the sourmash hashes using the Jaccard similarity.
 
 ---

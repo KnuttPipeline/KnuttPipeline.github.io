@@ -78,17 +78,24 @@ output
 │           ├── output/Binning/sourmash/SAMPLE/SAMPLE_bins_sourmash_classification.log
 │           ├── output/Binning/sourmash/SAMPLE/SAMPLE_bins_sourmash_descr.log
 │           ├── output/Binning/sourmash/SAMPLE/SAMPLE_bins_sourmash_k51.log
-│           └── output/Binning/sourmash/SAMPLE/SAMPLE_bins_sourmash_k51.sig
+│           ├── output/Binning/sourmash/SAMPLE/SAMPLE_bins_sourmash_k51.sig
+│           └── output/Binning/sourmash/SAMPLE/SAMPLE_bins_sourmash_search.log
 ├── output/Data
 │   └── output/Data/Binning
 │       ├── output/Data/Binning/SAMPLE_bat.tsv
 │       ├── output/Data/Binning/SAMPLE_binmap.tsv
 │       ├── output/Data/Binning/SAMPLE_bins_sourmash_classification.tsv
+│       ├── output/Data/Binning/SAMPLE_bins_sourmash_search.tsv
 │       ├── output/Data/Binning/SAMPLE_bins_sourmash_signature.tsv
 │       ├── output/Data/Binning/SAMPLE_checkm_cov.tsv
 │       ├── output/Data/Binning/SAMPLE_checkm_profile.tsv
 │       ├── output/Data/Binning/SAMPLE_checkm_tetras.tsv
-│       └── output/Data/Binning/^.tsv
+│       ├── output/Data/Binning/sourmash_bin_comparison
+│       ├── output/Data/Binning/sourmash_bin_comparison.dendro.png
+│       ├── output/Data/Binning/sourmash_bin_comparison.hist.png
+│       ├── output/Data/Binning/sourmash_bin_comparison.labels.txt
+│       ├── output/Data/Binning/sourmash_bin_comparison.matrix.png
+│       └── output/Data/Binning/sourmash_bin_comparison.tsv
 └── output/Reports
     ├── output/Reports/8binning.html
     └── output/Reports/BAT_krona.html

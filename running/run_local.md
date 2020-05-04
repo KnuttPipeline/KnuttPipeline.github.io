@@ -61,4 +61,4 @@ If you want to force the recreation of a certain file, use one of the force flag
 |:-------------------:|:----------------------:|:----------------------------------------------------------------|
 | `-f`                | `--force`              | Force execution of the given files or rules                     |
 | `-F`                | `--forceall`           | Force execution of the given files or rules and preceding rules |
-| `-R`                | `--forcerules`         | Force execution of the given files or rules and depending rules |
+| `-R <file>`                | `--forcerules`         | Force execution of the given file or rule and depending rules |
