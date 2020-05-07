@@ -16,6 +16,6 @@ permalink: /
 
 * * *
 
-Every **Knutt** pipeline is designed to provide you with an easy to use [Snakemake](https://snakemake.readthedocs.io) workflow with integrated data reporting. **For the versions used in the Dyksma et. al. paper see [here](/Snakefiles)**
+Every **Knutt** pipeline is designed to provide you with an easy to use [Snakemake](https://snakemake.readthedocs.io) workflow with integrated data reporting. **For the versions used in the Dyksma et. al. paper see [here](/Snakefiles)**. The bins from this paper can be downloaded [here](/assets/etc/binsdyksma.tgz).
 
 **Remeber to cite** the databases and tools you use for your analysis.
