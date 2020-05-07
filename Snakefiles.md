@@ -42,7 +42,7 @@ Bin annotation.
 ``` sh
 git clone -b paper https://github.com/KnuttPipeline/KnuttBinAnno.git
 cd KnuttBinAnno
-
+wget -qO- https://www.knutt.org/assets/etc/binsdyksma.tgz | tar xzvf - -C input/
 snakemake -prj 16 --use-conda --keep-going paper 2>&1 | tee run.log
 ```
 
@@ -53,6 +53,6 @@ Automatic phylognetic marker analysis.
 ``` sh
 git clone -b paper https://github.com/KnuttPipeline/KnuttBinPhylo.git
 cd KnuttBinPhylo
-
+wget -qO- https://www.knutt.org/assets/etc/binsdyksma.tgz | tar xzvf - -C input/
 snakemake -prj 16 --use-conda --keep-going paper 2>&1 | tee run.log
 ```
